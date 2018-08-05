@@ -1,0 +1,26 @@
+\newpage
+
+\chapter*{Abstract}
+
+In this thesis we present two approaches to improve automatic playtesting using player modeling. By modeling various cohorts of players we are able to train Convolutional Neural Network based agents that simulate human gameplay using different strategies directly learnt from real player data. The goal is to use the developed agents to predict useful metrics of newly created game content. 
+
+We validated our approaches using the game \textit{Candy Crush Saga}, a non-deterministic match-three puzzle game with a huge search space and more than three thousand levels available.
+To the best of our knowledge this is the first time that player modeling is applied in a match-three puzzle game. Nevertheless, the presented approaches are general and can be extended to other games as well. The proposed methods are compared to a baseline approach that simulates gameplay using a single strategy learnt from random gameplay data. 
+Results show that by simulating different strategies, our approaches can more accurately predict the level difficulty, measured as the players' success rate, on new levels. Both the approaches improved the mean absolute error by 13\% and the mean squared error by approximately 23\% when predicting with linear regression models. Furthermore, the proposed approaches can provide useful insights to better understand the players and the game.
+
+\vspace{15pt}
+\textbf{\textit{Keywords}} --- Player Modeling;  Automatic Playtesting; Gameplay Simulation; Convolutional Neural Network.
+
+
+
+\cleardoublepage
+
+\chapter*{Sommario}
+
+% \addcontentsline{toc}{chapter}{Sommario}
+
+La creazione di contenuti nei videogiochi \`e un compito di cruciale importanza per sviluppare e mantenere alta la qualit\`a del gioco proposto.
+In particolare, i livelli nei videogiochi devono creare divertimento e soddisfazione nei giocatori. Se un livello \`e troppo facile rischia di annoiare il giocatore ed al contrario se \`e troppo difficile rischia di creare frustrazione. In entrambi i casi il giocatore potrebbe decidere di abbandonare il gioco. Essere in grado di creare contenuti di gioco che soddisfino le aspettative dei giocatori \`e un compito non semplice che richiede esperienza e professionalit\`a. L'intelligenza artificiale \`e uno strumento che pu\`o aiutare i designer di videogiochi nell'ottenere utili metriche riguardo i contenuti creati. 
+In questa tesi proponiamo due approcci che attraverso la creazione di modelli dei giocatori e la simulazione di gioco permettono di ottenere metriche pi\`u accurate riguardo i contenuti di gioco creati dai designers. 
+
+Abbiamo validato gli approcci proposti utilizzando come esempio il videogioco \textit{Candy Crush Saga}, un videogioco non deterministico di tipo puzzle match-3 con pi\`u di tremila livelli disponibili e milioni di giocatori attivi ogni giorno. Inoltre, gli approcci proposti sono generali ed \`e possibile utilizzarli anche in altri tipi di videogiochi. I risultati provano che \`e possibile ottenere stime riguardanti la difficolt\`a di nuovi livelli in modo pi\`u accurato rispetto al caso in cui non si consideri nessun modello dei giocatori. Infine, attraverso l'utilizzo di questi modelli \`e possibile sviluppare analisi che permettono di capire in modo pi\`u approfondito non solo i giocatori ma anche il videogioco stesso.
